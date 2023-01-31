@@ -1,0 +1,5 @@
+C:\Users\ADMIN\source\repos\WebApiprueba\Resources\obj\Debug\net7.0\Resources.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\WebApiprueba\Resources\obj\Debug\net7.0\Resources.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\WebApiprueba\Resources\obj\Debug\net7.0\Resources.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\WebApiprueba\Resources\obj\Debug\net7.0\Resources.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\WebApiprueba\Resources\obj\Debug\net7.0\Resources.csproj.CoreCompileInputs.cache
