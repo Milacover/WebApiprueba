@@ -24,7 +24,8 @@ namespace Data.Migrations
                     ProductPrice = table.Column<int>(type: "int", nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false),
                     TotalProductPrice = table.Column<int>(type: "int", nullable: false),
-                    IsPayed = table.Column<bool>(type: "bit", nullable: false)
+                    IsPayed = table.Column<bool>(type: "bit", nullable: false),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {

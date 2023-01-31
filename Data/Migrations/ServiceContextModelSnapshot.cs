@@ -36,6 +36,9 @@ namespace Data.Migrations
                     b.Property<Guid>("IdWeb")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsPayed")
                         .HasColumnType("bit");
 

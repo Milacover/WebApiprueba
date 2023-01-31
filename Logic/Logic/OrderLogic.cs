@@ -12,16 +12,23 @@ namespace Logic.Logic
 {
     public class OrderLogic : BaseContextLogic, IOrderLogic
     {
+        private int id;
+
         public OrderLogic(ServiceContext serviceContext) : base(serviceContext) { }
 
-        public void DeleteOrderById(int Id, OrderItem selectedOrder)
+        public void DeleteOrderById(int Id)
         {
             var chooseOrder = _serviceContext.Set<OrderItem>().Where(p => p.Id == Id).First();
-            //chooseOrder.IsActive = false; meter en la tabla Is Active
+            chooseOrder.IsActive = false; 
             _serviceContext.SaveChanges();
+            //var userToDelete = _serviceContext.Set<OrderItem>()
+            //.Where(u => u.Id == id).First();
+
+            // userToDelete.IsActive = false;
+
+            //_serviceContext.SaveChanges();
 
         }
-
 
         public void InsertOrderItem(OrderItem orderItem )
         {

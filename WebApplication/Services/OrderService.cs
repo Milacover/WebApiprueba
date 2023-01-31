@@ -16,7 +16,7 @@ namespace APIService.Services
 
         public void DeleteOrderById(int id)
         {
-            _orderService.DeleteOrderById(id);
+            _orderLogic.DeleteOrderById(id);
         }
 
         public int InsertOrder(OrderItem orderItem)

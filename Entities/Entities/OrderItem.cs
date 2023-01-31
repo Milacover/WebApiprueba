@@ -18,5 +18,6 @@ namespace Entities.Entities
         public int Quantity { get; set; }
         public int TotalProductPrice { get; set; }
         public bool IsPayed { get; set; }
+        public bool IsActive { get; set; }
     }
 }
