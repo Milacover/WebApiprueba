@@ -1,4 +1,5 @@
 ﻿
+using Entities.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,15 +13,15 @@ namespace Resources.RequestModels
         public int IdPerson { get; set; }
         public int IdRol { get; set; }
         public string Name { get; set; }
-        public string Password { get; set; }
+        private string Password { get; set; }
 
         public UserItem ToUserItem()
         {
             var userItem = new UserItem();
 
-            userItem.IdPerson = IdPerson;
+            
             userItem.IdRol = IdRol;
-            userItem.Name = Name;
+            userItem.UserName = Name;
             userItem.Password = Password;
 
             userItem.InsertDate = DateTime.Now;

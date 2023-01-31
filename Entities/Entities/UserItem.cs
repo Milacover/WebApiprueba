@@ -15,13 +15,14 @@ namespace Entities.Entities
         }
         public int Id { get; set; }
         public Guid IdWeb { get; set; }
-        public string Name { get; set; }
+        public string UserName { get; set; }
         public DateTime InsertDate { get; set; }
         public DateTime UpdateDate { get; set; }
         public string Email { get; set; }
         public bool IsActive { get; set; }
         public int IdRol { get; set; }
         public string Password { get; set; }
+      
         private string EncryptedPassword { get; set; }
         //public string ExampleGitSasasa { get; set; }
     }

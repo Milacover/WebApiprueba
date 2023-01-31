@@ -19,7 +19,7 @@ namespace Logic.Logic
         public bool ValidateUserCredentials(string userName, string userPassWord, int idRol)
         {
             var selectedUser = _serviceContext.Set<UserItem>()
-                                .Where(u => u.Name == userName
+                                .Where(u => u.UserName == userName
                                     && u.Password == userPassWord
                                     && u.IdRol == idRol).FirstOrDefault();
 

@@ -258,9 +258,6 @@
             "projectReferences": {
               "C:\\Users\\ADMIN\\source\\repos\\WebApiprueba\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\ADMIN\\source\\repos\\WebApiprueba\\Entities\\Entities.csproj"
-              },
-              "C:\\Users\\ADMIN\\source\\repos\\WebApiprueba\\Logic\\Logic.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\WebApiprueba\\Logic\\Logic.csproj"
               }
             }
           }

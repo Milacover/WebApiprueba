@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "B2fQip4WmY7Y+7qPDPeFyIu5UhSbUiibqVLmSfX5IZHjViB43FhOCW5ihUsFpX8dbqqn3SqFKBP5VrOBDGswEA==",
-  "success": false,
+  "dgSpecHash": "OwMdCSBYjSm2OIM4YmMItPmOcoMtW/0idwLKQUj/9MpBzqDFzWRL3dU14zURRvPps3f65ZZUOUCPsyR0DIZS/w==",
+  "success": true,
   "projectFilePath": "C:\\Users\\ADMIN\\source\\repos\\WebApiprueba\\Logic\\Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -78,15 +78,5 @@
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  Logic -> Resources -> Logic.",
-      "libraryId": "Logic",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

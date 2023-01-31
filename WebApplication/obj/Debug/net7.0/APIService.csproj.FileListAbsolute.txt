@@ -4,6 +4,9 @@ C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\obj\Debug\net7.0\APIServ
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\obj\Debug\net7.0\APIService.AssemblyInfo.cs
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\obj\Debug\net7.0\APIService.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\obj\Debug\net7.0\APIService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Resources.deps.json
+C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Resources.runtimeconfig.json
+C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Resources.exe
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\appsettings.json
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\APIService.exe
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\APIService.deps.json
@@ -61,10 +64,11 @@ C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\runtime
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Data.dll
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Entities.dll
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Logic.dll
+C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Resources.dll
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Entities.pdb
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Logic.pdb
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Data.pdb
-C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\obj\Debug\net7.0\APIService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\bin\Debug\net7.0\Resources.pdb
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\obj\Debug\net7.0\staticwebassets\msbuild.APIService.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\obj\Debug\net7.0\staticwebassets\msbuild.build.APIService.props
 C:\Users\ADMIN\source\repos\WebApiprueba\WebApplication\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.APIService.props

@@ -3,7 +3,7 @@ using Entities.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Authentication;
 using Resources.RequestModels;
-
+using Resources.FilterModels;
 
 namespace APIService.Controllers
 {

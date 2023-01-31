@@ -17,6 +17,7 @@ namespace Data
         public DbSet<ProductItem> Products { get; set; }
         public DbSet<OrderItem> Orders { get; set; }
         public DbSet<UserItem> Users { get; set; }
+        public DbSet<UserRol> Rols { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<OrderItem>(entity => {
@@ -28,7 +29,10 @@ namespace Data
             builder.Entity<UserItem>(entity => {
                 entity.ToTable("Users");
             });
-    }
+            builder.Entity<UserRol>(entity => {
+                entity.ToTable("Rols");
+            });
+        }
 }
     public class ServiceContextFactory : IDesignTimeDbContextFactory<ServiceContext>
     {
