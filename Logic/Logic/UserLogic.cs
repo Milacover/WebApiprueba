@@ -34,7 +34,7 @@ namespace Logic.Logic
                 .Where(u => u.IsActive == true)
                 .ToList();
         }
-        public List<UserItem> GetUsersByCriteria(UserFilter userFilter)
+       /* public List<UserItem> GetUsersByCriteria(UserFilter userFilter)
         {
             var resultList = _serviceContext.Set<UserItem>()
                                 .Where(u => u.IsActive == true);
@@ -50,7 +50,7 @@ namespace Logic.Logic
             }
 
             return resultList.ToList();
-        }
+        }*/
 
         public int InsertUser(UserItem userItem)
         {

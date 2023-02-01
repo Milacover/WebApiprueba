@@ -32,6 +32,11 @@ namespace Data
             builder.Entity<UserRol>(entity => {
                 entity.ToTable("Rols");
             });
+
+            foreach (var relationship in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+            }
         }
 }
     public class ServiceContextFactory : IDesignTimeDbContextFactory<ServiceContext>

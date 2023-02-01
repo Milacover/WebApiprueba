@@ -78,18 +78,17 @@ namespace APIService.Controllers
             }
         }
 
-        [HttpGet(Name = "GetUsersByCriteria")]
-        public List<UserItem> GetByCriteria([FromHeader] string userName, [FromHeader] string userPassword, [FromQuery] UserFilter userFilter)
-        {
-            var validCredentials = _securityService.ValidateUserCredentials(userName, userPassword, 1);
-            if (validCredentials == true)
-            {
-                return _userService.GetUsersByCriteria(userFilter);
-            }
-            else
-            {
-                throw new InvalidCredentialException();
-            }
+        //[HttpGet(Name = "GetUsersByCriteria")]
+        //public List<UserItem> GetByCriteria([FromHeader] string userName, [FromHeader] string userPassword, [FromQuery] UserFilter userFilter)
+        //{
+            //var validCredentials = _securityService.ValidateUserCredentials(userName, userPassword, 1);
+           // if (validCredentials == true)
+            //{
+                //return _userService.GetUsersByCriteria(userFilter);
+            //}
+            //else
+            //{
+                //throw new InvalidCredentialException();
+            //}
         }
     }
-}
