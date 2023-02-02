@@ -1,7 +1,6 @@
 ﻿using APIService.IServices;
 using Entities.Entities;
 using Logic.ILogic;
-using Resources.FilterModels;
 using Resources.RequestModels;
 
 namespace APIService.Services
@@ -23,10 +22,7 @@ namespace APIService.Services
             return _userLogic.GetAllUsers();
         }
 
-        /*public List<UserItem> GetUsersByCriteria(UserFilter userFilter)
-        {
-            return _userLogic.GetUsersByCriteria(userFilter);
-        }*/
+       
 
         public int InsertUser(NewUserRequest newUserRequest)
         {

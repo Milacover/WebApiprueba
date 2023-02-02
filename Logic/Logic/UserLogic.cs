@@ -1,7 +1,6 @@
 ﻿using Data;
 using Entities.Entities;
 using Logic.ILogic;
-using Resources.FilterModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,23 +33,6 @@ namespace Logic.Logic
                 .Where(u => u.IsActive == true)
                 .ToList();
         }
-       /* public List<UserItem> GetUsersByCriteria(UserFilter userFilter)
-        {
-            var resultList = _serviceContext.Set<UserItem>()
-                                .Where(u => u.IsActive == true);
-
-            if (userFilter.InsertDateFrom != null)
-            {
-                resultList = resultList.Where(u => u.InsertDate > userFilter.InsertDateFrom);
-            }
-
-            if (userFilter.InsertDateTo != null)
-            {
-                resultList = resultList.Where(u => u.InsertDate < userFilter.InsertDateTo);
-            }
-
-            return resultList.ToList();
-        }*/
 
         public int InsertUser(UserItem userItem)
         {

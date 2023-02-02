@@ -3,7 +3,7 @@ using Entities.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Authentication;
 using Resources.RequestModels;
-using Resources.FilterModels;
+
 
 namespace APIService.Controllers
 {
@@ -14,10 +14,9 @@ namespace APIService.Controllers
         private ISecurityService _securityService;
         private IUserService _userService;
         public UserController(ISecurityService securityService, IUserService userService)
-        //private readonly ILogger<ProductController> _logger;
-        //public UserController(ILogger<ProductController> logger, IUserService userService)
+        
         {
-            //_logger = logger;
+            
             _securityService = securityService;
             _userService = userService;
         }
@@ -78,17 +77,6 @@ namespace APIService.Controllers
             }
         }
 
-        //[HttpGet(Name = "GetUsersByCriteria")]
-        //public List<UserItem> GetByCriteria([FromHeader] string userName, [FromHeader] string userPassword, [FromQuery] UserFilter userFilter)
-        //{
-            //var validCredentials = _securityService.ValidateUserCredentials(userName, userPassword, 1);
-           // if (validCredentials == true)
-            //{
-                //return _userService.GetUsersByCriteria(userFilter);
-            //}
-            //else
-            //{
-                //throw new InvalidCredentialException();
-            //}
+      
         }
     }

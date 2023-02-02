@@ -1,6 +1,6 @@
 ﻿using Entities.Entities;
 using Resources.RequestModels;
-using Resources.FilterModels;
+
 
 namespace APIService.IServices
 {
@@ -10,6 +10,6 @@ namespace APIService.IServices
         void UpdateUser(UserItem userItem);
         void DeleteUser(int id);
         List<UserItem> GetAllUsers();
-       // List<UserItem> GetUsersByCriteria(UserFilter userFilter);
+       
     }
 }

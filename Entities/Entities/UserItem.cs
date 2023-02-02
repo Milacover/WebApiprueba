@@ -24,7 +24,7 @@ namespace Entities.Entities
         public string Password { get; set; }
       
         private string EncryptedPassword { get; set; }
-        //public string ExampleGitSasasa { get; set; }
+       
     }
 }
 

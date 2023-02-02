@@ -1,5 +1,4 @@
 ﻿using Entities.Entities;
-using Resources.FilterModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +13,6 @@ namespace Logic.ILogic
         void UpdateUser(UserItem userItem);
         void DeleteUser(int id);
         List<UserItem> GetAllUsers();
-        //List<UserItem> GetUsersByCriteria(UserFilter userFilter);
+      
     }
 }

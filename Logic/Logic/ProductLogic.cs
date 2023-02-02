@@ -19,19 +19,7 @@ namespace Logic.Logic
             var chooseProduct = _serviceContext.Set<ProductItem>().Where(p => p.Id == Id).First();
             chooseProduct.IsActive = false;
             _serviceContext.SaveChanges();
-
-            // Filtra
-            //var selectedProduct = _serviceContext.Set<ProductItem>().ToList().Where(p => p.IsActive).ToList();
-
-            // Trae el primero
-            //var firstProduct = _serviceContext.Set<ProductItem>().First();
-            //firstProduct.InsertDate = DateTime.Now;
-
-            // Lo modifica
-            //_serviceContext.SaveChanges();
-
         }
-
 
         public void InsertProductItem(ProductItem productItem)
         {
@@ -42,9 +30,7 @@ namespace Logic.Logic
         public void PatchProductItem(ProductItem productItem)
         {
             _serviceContext.Products.Update(productItem);
-          //var firstProduct = _serviceContext.Set<ProductItem>().First();
-            
-            _serviceContext.SaveChanges();
+             _serviceContext.SaveChanges();
         }
 
         public List<ProductItem> GetProductItem()
